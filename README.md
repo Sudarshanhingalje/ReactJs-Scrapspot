@@ -1,3 +1,5 @@
+Scrap Spot is a start-up based in Pune. We are a fully technology-driven module to organize the unsegmented work into a fully automated, professional, and online waste management brand.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
