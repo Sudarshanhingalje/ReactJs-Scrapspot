@@ -1,0 +1,73 @@
+.registration-page {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .registration-page h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .registration-page form {
+    display: grid;
+    gap: 1rem;
+  }
+  
+  .registration-page .form-group {
+    display: grid;
+    gap: 0.5rem;
+  }
+  
+  .registration-page label {
+    font-size: 1rem;
+  }
+  
+  .registration-page input[type="text"],
+  .registration-page input[type="email"],
+  .registration-page input[type="password"],
+  .registration-page input[type="tel"],
+  .registration-page select {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .registration-page input[type="text"]:focus,
+  .registration-page input[type="email"]:focus,
+  .registration-page input[type="password"]:focus,
+  .registration-page input[type="tel"]:focus,
+  .registration-page select:focus {
+    outline: none;
+    border-color: #3498db;
+  }
+  
+  .registration-page button[type="submit"] {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .registration-page button[type="submit"]:hover {
+    background-color: #2980b9;
+  }
+  
+  @media (max-width: 768px) {
+    .registration-page {
+      padding: 1rem;
+    }
+  }
+  
